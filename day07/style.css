@@ -1,0 +1,72 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box {
+    background-color: blueviolet;
+    width: 5rem;
+    height: 5rem;
+    margin: 0.5rem;
+    display: grid;
+    place-items: center;
+}
+
+.absolute {
+    background-color: yellow;
+    position: absolute;
+    right: 20px;
+    top: 200px;
+}
+
+.fixed {
+    position: fixed;
+    background-color: aquamarine;
+    right: 0;
+    bottom: 300px;
+}
+
+.relative {
+    background-color:crimson;
+    color:plum;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    width: 10rem;
+    height: 10rem;
+    display: block;
+}
+
+.child {
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sticky {
+    background-color: forestgreen;
+    color: white;
+    position: sticky;
+    top: 50px;
+}
+
+.dialog-box {
+    background-color: grey;
+    width: 70%;
+    height: 10rem;
+    position: relative;
+    display: block;
+    right: 200px;
+}
+
+.close-button {
+background-color: red;
+color: white;
+}
