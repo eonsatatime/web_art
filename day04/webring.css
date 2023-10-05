@@ -1,0 +1,11 @@
+.webring {
+    border: 4px dashed palegreen;
+    padding: 1rem;
+    width: max-content;
+    background-color: cadetblue;
+}
+
+.webring a {
+margin-right: 1rem;
+margin-left: 1rem;
+}
