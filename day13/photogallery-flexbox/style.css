@@ -1,0 +1,92 @@
+* {
+  /* "CSS Reset" */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: ed;
+  background-color: aqua;
+  padding: 1 rem;
+  border: 1rem solid pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+ 
+}
+
+header a{
+    color:palevioletred;
+}
+body {
+  background-color: bisque;
+}
+header > * {
+  outline: 2px plum;
+}
+.logo {
+  font-size: 2rem;
+  font-family: arial;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: violet;
+  padding: 25 rem;
+}
+
+.topmenu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 2rem;
+  text-decoration: none;
+}
+
+.topmenu a {
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.topmenu a:hover {
+  color: gold;
+}
+
+/* MAIN BLOCK */
+main {
+  max-width: 40rem;
+  margin: 0;
+}
+
+.page-title {
+  text-align: center;
+  padding: 4rem;
+  background-image: url("//picsum.photos/id/115/1920/600");
+}
+.flex-container {
+  display: flex;
+  gap: 1rem;
+}
+img {
+  display: block;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: min(300px, 100%);
+  flex-grow: 1;
+  max-width: 600px;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: white;
+  background-color: brown;
+}
