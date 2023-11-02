@@ -1,0 +1,14 @@
+canvas {
+    border: 10px solid blueviolet;
+    display:
+    
+}
+
+.container {
+    justify-content: center;
+    align-content: center;
+}
+
+body {
+    min-height: 100vh;
+}
